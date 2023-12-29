@@ -102,7 +102,7 @@ header .loginBox .userName {
   font-weight: bold;
 }
 header .loginBox .userName span {
-  color: #008599;
+  color: #34da14;
 }
 
 header .loginBox li a {
@@ -116,11 +116,11 @@ header .loginBox li:not(:first-child) p {
 }
 
 header .loginBox > li.total p {
-  color: #eee3bf;
+  color: #f5b41d;
 }
 
 header .loginBox > li.total i {
-  color: #eee3bf;
+  color: #f5b41d;
   font-size: 12px;
 }
 
@@ -145,7 +145,7 @@ header .loginBox .transferInfo li p.money {
 }
 
 header .loginBox li.message.notify::before {
-  background: #fae8c1;
+  background: #ffb21d;
   color: #000000;
   font-size: 12px;
   font-weight: bold;
@@ -255,7 +255,7 @@ main .gamePage_Wrap .center .containerWrap .textBox .title p.small {
 }
 
 main .gamePage_Wrap .center .containerWrap .textBox p.mainCnt {
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -263,7 +263,7 @@ main .gamePage_Wrap .center .containerWrap .textBox p.mainCnt {
 }
 
 main .gamePage_Wrap .center .containerWrap .textBox .btnBox li p {
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -377,7 +377,7 @@ main .eventWrap .eventBody .sideNav ul li {
   border-bottom: 1px solid #cccccc;
 }
 main .eventWrap .eventBody .sideNav ul li:hover, main .eventWrap .eventBody .sideNav ul li:active, main .eventWrap .eventBody .sideNav ul li.active {
-  background: #fae8c1;
+  background: #ffb21d;
 }
 main .eventWrap .eventBody .sideNav ul li:hover::before, main .eventWrap .eventBody .sideNav ul li:active::before, main .eventWrap .eventBody .sideNav ul li.active::before {
   background: #c4a167;
@@ -451,7 +451,7 @@ main .helpWrap .helpBody .sideNav ul li ul li {
   background: transparent;
 }
 main .helpWrap .helpBody .sideNav ul li ul li:hover, main .helpWrap .helpBody .sideNav ul li ul li:active, main .helpWrap .helpBody .sideNav ul li ul li.active {
-  background: #fae8c1;
+  background: #ffb21d;
 }
 
 main .helpWrap .helpBody .sideNav ul li ul li p {
@@ -594,7 +594,7 @@ main.innerPage .center .leftSide .innerNav li a i.fa-regular.fa-mobile-screen-bu
 main.innerPage .center .leftSide .content .innerNav li:hover a,
 main.innerPage .center .leftSide .content .innerNav li:active a,
 main.innerPage .center .leftSide .content .innerNav li.active a {
-  background: #fae8c1;
+  background: #ffb21d;
 }
 main.innerPage .center .leftSide .content .innerNav li:hover a::before,
 main.innerPage .center .leftSide .content .innerNav li:active a::before,
@@ -819,7 +819,7 @@ main.innerPage .center .midSide .midPageList li {
   letter-spacing: 2px;
 }
 main.innerPage .center .midSide .midPageList li:hover, main.innerPage .center .midSide .midPageList li:active, main.innerPage .center .midSide .midPageList li.active {
-  background: linear-gradient(135deg, #fae8c1 0%, #008599 100%);
+  background: linear-gradient(135deg, #ffb21d 0%, #34da14 100%);
 }
 
 main.innerPage .center .midSide .midBottom .content form .selectBtn_Wrap span.hint {
@@ -954,7 +954,7 @@ main.innerPage .center .midSide.memberCenter .midBottom table tr th:not(:last-ch
 }
 
 main.innerPage .center .midSide.memberCenter .midBottom table tr td:nth-of-type(3) p {
-  color: #008599;
+  color: #34da14;
 }
 
 main.innerPage .center .midSide.memberCenter .midBottom table tr td:nth-of-type(5) p {
@@ -986,8 +986,8 @@ main.innerPage .center .midSide.vip .midBottom .bar {
 }
 
 main.innerPage .center .midSide.vip .midBottom .bar span {
-  background: -webkit-gradient(linear, left top, right top, from(#fae8c1), to(#008599));
-  background: linear-gradient(to right, #fae8c1 0%, #008599 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ffb21d), to(#34da14));
+  background: linear-gradient(to right, #ffb21d 0%, #34da14 100%);
   border-radius: 50px;
 }
 
@@ -1154,7 +1154,7 @@ main.innerPage .center .midSide.dealRecord .midBottom table tr th:not(:last-chil
 }
 
 main.innerPage .center .midSide.dealRecord .midBottom table.water tr td:nth-of-type(3) p {
-  color: #008599;
+  color: #34da14;
 }
 
 main.innerPage .center .midSide.dealRecord .midBottom table.water tr td:nth-of-type(5) p {
@@ -1162,7 +1162,7 @@ main.innerPage .center .midSide.dealRecord .midBottom table.water tr td:nth-of-t
 }
 
 main.innerPage .center .midSide.pointRecord .midBottom table.deal tr td:nth-of-type(1) p {
-  color: #008599;
+  color: #34da14;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -1286,11 +1286,11 @@ main.innerPage .center .midSide.eventApply .midBottom .content .eventBlock .even
 }
 
 main.innerPage .center .midSide.eventApply .midBottom .content .eventBlock .eventTitle button.callEventApply {
-  border-color: #008599;
-  color: #008599;
+  border-color: #34da14;
+  color: #34da14;
 }
 main.innerPage .center .midSide.eventApply .midBottom .content .eventBlock .eventTitle button.callEventApply:hover, main.innerPage .center .midSide.eventApply .midBottom .content .eventBlock .eventTitle button.callEventApply:active, main.innerPage .center .midSide.eventApply .midBottom .content .eventBlock .eventTitle button.callEventApply.active {
-  background: #008599;
+  background: #34da14;
   color: #ffffff;
 }
 
@@ -1350,14 +1350,14 @@ main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail
   border-bottom: 1px solid #cccccc;
 }
 main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li:hover, main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li:active, main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li.active {
-  background: #fae8c1;
+  background: #ffb21d;
 }
 
 main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li.seen {
   background: #f3f3f3;
 }
 main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li.seen:hover, main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li.seen:active, main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li.seen.active {
-  background: #fae8c1;
+  background: #ffb21d;
 }
 
 main.innerPage .center .midSide.mailWrap .midBottom .content .outerMode .allMail li .text {

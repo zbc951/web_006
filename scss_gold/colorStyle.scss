@@ -5,6 +5,7 @@ $BG_color_4: #00000073;
 
 $Font_color_4: $BG_color_1;
 $Font_Title_1: #996c33;
+$Font_Title_2: #ffffff;
 $Font_Title_1_Active: #dcb160;
 $Font_color_1: #ffffff;
 $Font_color_2: #000000;
@@ -13,8 +14,8 @@ $Font_color_3: #686868;
 $Font_remind: #ff0000;
 $Font_negative: $Font_remind;
 $Font_positive: #32b411;
-$Font_accent01: #008599;
-$Font_accent02: #fae8c1;
+$Font_accent01: #34da14;
+$Font_accent02: #ffb21d;
 $Font_accent03: mix($Font_accent01,$Font_accent02, 5%);
 
 $Border_color_0: #ffffff;
@@ -251,14 +252,14 @@ main .gamePage_Wrap .center .containerWrap .textBox .title p.small {
     letter-spacing: 5px;
 }
 main .gamePage_Wrap .center .containerWrap .textBox p.mainCnt {
-    color: $Font_color_2;
+    color: $Font_color_1;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
     line-height: 24px;
 }
 main .gamePage_Wrap .center .containerWrap .textBox .btnBox li p {
-    color: $Font_color_2;
+    color: $Font_color_1;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
