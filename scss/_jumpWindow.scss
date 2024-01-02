@@ -7,7 +7,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
 
     &.display {
         display: flex;
@@ -24,7 +24,7 @@
         }
 
         //忘記密碼
-        &.fgPW {
+        &.forget {
 
             .content {
                 height: 80px;
@@ -139,7 +139,7 @@
                         grid-template-columns: 25% 70%;
                         gap: 10px 30px;
                         align-items: center;
-                        margin-bottom: 15px;
+                        // margin-bottom: 15px;
 
                         input {
                             padding: 0 15px;
@@ -391,6 +391,8 @@
             input {
                 width: 280px;
                 height: 42px;
+                margin: 20px 0;
+                text-align: center;
             }
 
             table {

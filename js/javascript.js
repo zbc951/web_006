@@ -728,7 +728,7 @@ $(function(){
 $(function(){
 
     //忘記密碼
-    $(".forgetBtn").click(function(){
+    $(".forget").click(function(){
         $(".jumpWindow")
         .removeClass("display");
 

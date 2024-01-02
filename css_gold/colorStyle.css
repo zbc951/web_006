@@ -210,10 +210,6 @@ header .downList .fa-solid.fa-chevron-right {
   font-size: 44px;
 }
 
-.home {
-  background: #1d1d1d;
-}
-
 .home .typeList .gameBlock p {
   color: #996c33;
   font-size: 26px;
@@ -1526,6 +1522,10 @@ main.innerPage .center .midSide.deposit .midBottom .deposit_finished .deposit_St
   font-size: 14px;
   font-weight: bold;
   letter-spacing: unset;
+}
+
+.registerWrap {
+  background: #1d1d1d;
 }
 
 .registerWrap .signUpBlock {

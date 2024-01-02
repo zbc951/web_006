@@ -9,7 +9,7 @@ header .deco .pw_ic {
   background-size: 100%;
 }
 
-header .fgPW {
+header .forget {
   background: url(../img/icon/help.png) no-repeat center;
   background-size: 100%;
 }
@@ -334,7 +334,7 @@ html body header .top .center form label input {
   padding: 0 20px 0 50px;
   margin-right: 10px;
 }
-html body header .top .center form label .fgPW {
+html body header .top .center form label .forget {
   width: 21px;
   height: 21px;
   position: absolute;
@@ -774,7 +774,6 @@ html body .ad {
   max-width: 1400px;
   min-width: 1000px;
   height: auto;
-  padding-top: 115px;
   position: relative;
   overflow: hidden;
 }
@@ -2951,7 +2950,7 @@ html body .helpWrap .helpBody .container > div button {
 html body .home {
   width: 100%;
   height: auto;
-  padding: 125px 0 20px;
+  padding: 115px 0 20px;
 }
 html body .home .swiperGroup {
   width: 100%;
@@ -5441,7 +5440,7 @@ html body .filter {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1000;
 }
 html body .filter.display {
   display: -webkit-box;
@@ -5457,10 +5456,10 @@ html body .filter .jumpWindow {
 html body .filter .jumpWindow.display {
   display: block;
 }
-html body .filter .jumpWindow.fgPW .content {
+html body .filter .jumpWindow.forget .content {
   height: 80px;
 }
-html body .filter .jumpWindow.fgPW .content input {
+html body .filter .jumpWindow.forget .content input {
   text-align: center;
 }
 html body .filter .jumpWindow.plsLogin .content {
@@ -5554,7 +5553,6 @@ html body .filter .jumpWindow.quickTransfer .content form label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
 }
 html body .filter .jumpWindow.quickTransfer .content form label input {
   padding: 0 15px;
@@ -5763,6 +5761,8 @@ html body .filter .jumpWindow .content {
 html body .filter .jumpWindow .content input {
   width: 280px;
   height: 42px;
+  margin: 20px 0;
+  text-align: center;
 }
 html body .filter .jumpWindow .content table {
   margin-top: 20px;
