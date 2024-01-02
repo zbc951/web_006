@@ -124,6 +124,35 @@ header .forget {
   background-size: 100%;
 }
 
+.innerPage .center > div.midSide.deposit .midTop .objectList .payType li:nth-of-type(1) .pay_Icon {
+  background: url("../img/icon/svg/payWay01.svg") no-repeat center;
+  background-size: 100%;
+}
+
+.innerPage .center > div.midSide.deposit .midTop .objectList .payType li:nth-of-type(2) .pay_Icon {
+  background: url("../img/icon/svg/payWay02.svg") no-repeat center;
+  background-size: 100%;
+  width: 22px;
+  height: 22px;
+}
+
+.innerPage .center > div.midSide.deposit .midTop .objectList .payType li:nth-of-type(3) .pay_Icon {
+  background: url("../img/icon/svg/payWay03.svg") no-repeat center;
+  background-size: 100%;
+  width: 22px;
+  height: 22px;
+}
+
+.innerPage .center > div.midSide.vip .midBottom .content .vipCardList li .medal {
+  background: url("../img/medal_01.png") no-repeat;
+  background-size: 100%;
+}
+
+.registerWrap .signUpBlock .decPic {
+  background: url(../img/register_background2.png) no-repeat center;
+  background-size: cover;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -479,6 +508,14 @@ html body header .top .afterLogin .center ul .wallet .total {
   margin-right: 10px;
   cursor: pointer;
 }
+html body header .top .afterLogin .center ul .wallet .total:hover, html body header .top .afterLogin .center ul .wallet .total:active, html body header .top .afterLogin .center ul .wallet .total.active {
+  background: #000;
+  color: #ffb21d;
+  border: 1px solid #ffb21d;
+}
+html body header .top .afterLogin .center ul .wallet .total:hover i, html body header .top .afterLogin .center ul .wallet .total:active i, html body header .top .afterLogin .center ul .wallet .total.active i {
+  border-color: #ffb21d transparent #ffb21d transparent;
+}
 html body header .top .afterLogin .center ul .wallet .total .moneyTotal {
   margin-right: 10px;
   text-align: center;
@@ -493,7 +530,7 @@ html body header .top .afterLogin .center ul .wallet .total .faSolid {
   -webkit-transform: rotate(135deg);
   transform: rotate(0deg);
   position: absolute;
-  top: 10px;
+  top: 12px;
   right: 10px;
 }
 html body header .top .afterLogin .center ul .wallet .total .faSolid.faSortDown {
@@ -550,14 +587,29 @@ html body header .top .afterLogin .center ul .wallet .buttonGroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 10px;
 }
 html body header .top .afterLogin .center ul .wallet .buttonGroup button {
-  width: 70px;
+  width: 86px;
   height: 28px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   margin: 0 5px;
-  border-radius: 2px;
+  border-radius: 15px;
+}
+html body header .top .afterLogin .center ul .wallet .buttonGroup button:hover, html body header .top .afterLogin .center ul .wallet .buttonGroup button:active, html body header .top .afterLogin .center ul .wallet .buttonGroup button.active {
+  background: #000;
+  color: #ffb21d;
+  border: 1px solid #ffb21d;
+}
+html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child {
+  background: #C70036;
+  color: #ffffff;
+}
+html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child:hover, html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child:active, html body header .top .afterLogin .center ul .wallet .buttonGroup button:last-child.active {
+  background: #ffb21d;
+  color: #000;
+  border: 1px solid #ffb21d;
 }
 html body header .top .afterLogin .center ul .language {
   width: auto;
@@ -565,27 +617,41 @@ html body header .top .afterLogin .center ul .language {
   position: relative;
 }
 html body header .top .afterLogin .center ul .language select {
-  width: 87px;
+  width: 100px;
   height: 28px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
-  padding-left: 5px;
-  border-radius: 2px;
+  padding-left: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid #ffb21d;
+  background: #000;
+  color: #ffffff;
+}
+html body header .top .afterLogin .center ul .language select:hover, html body header .top .afterLogin .center ul .language select:active, html body header .top .afterLogin .center ul .language select.active {
+  background: #ffb21d;
 }
 html body header .top .afterLogin .center ul .language select option {
   color: #000;
+  background: #ffb21d;
 }
-html body header .top .afterLogin .center ul .language i {
+html body header .top .afterLogin .center ul .language .faSolid {
   width: 8px;
   height: 8px;
-  border-width: 2px 2px 0 0;
+  border-width: 5px 5px 0 5px;
   border-style: solid;
-  border-color: #ffffff #ffffff transparent transparent;
+  border-color: #ffffff transparent #ffffff transparent;
   -webkit-transform: rotate(135deg);
-          transform: rotate(135deg);
+  transform: rotate(0deg);
   position: absolute;
-  top: 9px;
-  right: 8px;
+  top: 12px;
+  right: 5px;
+}
+html body header .top .afterLogin .center ul .language .faSolid.faSortDown {
+  margin-bottom: 5px;
+}
+html body header .top .afterLogin .center ul .language .faSolid.faChevronDown {
+  margin: 2px 0 0 2px;
 }
 html body header .bottom {
   width: 100%;

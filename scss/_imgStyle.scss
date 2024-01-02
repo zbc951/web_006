@@ -123,3 +123,32 @@ header .forget {
     background: url(../img/vipLevel_01.png) no-repeat;
     background-size: 100%;
 }
+
+.innerPage .center > div.midSide.deposit .midTop .objectList .payType li:nth-of-type(1) .pay_Icon {
+    background: url("../img/icon/svg/payWay01.svg") no-repeat center;
+    background-size: 100%;
+}
+
+.innerPage .center > div.midSide.deposit .midTop .objectList .payType li:nth-of-type(2) .pay_Icon {
+    background: url("../img/icon/svg/payWay02.svg") no-repeat center;
+    background-size: 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.innerPage .center > div.midSide.deposit .midTop .objectList .payType li:nth-of-type(3) .pay_Icon {
+    background: url("../img/icon/svg/payWay03.svg") no-repeat center;
+    background-size: 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.innerPage .center > div.midSide.vip .midBottom .content .vipCardList li .medal {
+    background: url("../img/medal_01.png") no-repeat;
+    background-size: 100%;
+}
+
+.registerWrap .signUpBlock .decPic {
+    background: url(../img/register_background2.png) no-repeat center;
+    background-size: cover;
+}

@@ -352,10 +352,6 @@ main .gamePage_Wrap .center .gameInnerPage_Wrap .gameBox li ul li .btnBox button
   background: #0e1c5e;
 }
 
-main .eventWrap {
-  background: #1d1d1d;
-}
-
 main .eventWrap .eventTitle p {
   color: #996c33;
   font-size: 60px;
@@ -488,10 +484,6 @@ main .helpWrap .helpBody .container > div p.haveBtn {
   color: #686868;
   font-size: 20px;
   font-weight: bold;
-}
-
-main.innerPage {
-  background: #1d1d1d;
 }
 
 main.innerPage .center > div > div:not(.listTitle),

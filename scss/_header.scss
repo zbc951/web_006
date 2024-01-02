@@ -190,15 +190,15 @@ header {
                             margin-right:10px;
                             cursor: pointer;
 
-                            // &:hover,&:active,&.active {
-                            //     background: $buttonbg_7;
-                            //     color: $borderColor_4;
-                            //     border: 1px solid $borderColor_4;
+                            &:hover,&:active,&.active {
+                                background: #000;
+                                color: #ffb21d;
+                                border: 1px solid #ffb21d;
 
-                            //     i {
-                            //         border-color: $borderColor_4 $borderColor_4 transparent transparent;
-                            //     }
-                            // }
+                                i {
+                                    border-color: #ffb21d transparent #ffb21d transparent;
+                                }
+                            }
 
                             .moneyTotal {
                                 margin-right: 10px;
@@ -215,7 +215,7 @@ header {
                                 -webkit-transform: rotate(135deg);
                                 transform: rotate(0deg);
                                 position: absolute;
-                                top: 10px;
+                                top: 12px;
                                 right: 10px;
 
                                 &.faSortDown {
@@ -273,71 +273,80 @@ header {
                             width: 100%;
                             height: auto;
                             display: flex;
+                            padding-right: 10px;
         
                             button {
-                                width: 70px;
+                                width: 86px;
                                 height: 28px;
-                                // background: $buttonbg_5;
-                                // color: $mainColor_2;
-                                // border: 1px solid $borderColor_2;
-                                font-size: 15px;
+                                font-size: 18px;
                                 font-weight: bold;
-                                // padding: 0 10px;
                                 margin: 0 5px;
-                                border-radius: 2px;
+                                border-radius: 15px;
                                 
-                                // &:hover,&:active,&.active {
-                                //     background: $buttonbg_7;
-                                //     color: $borderColor_4;
-                                //     border: 1px solid $borderColor_4;
-                                // }
-        
-                                // &:last-child {
-                                //     background: $buttonbg_6;
-                                //     color: $mainColor_1;
-                                //     border: 1px solid $borderColor_3;
-        
-                                //     &:hover,&:active,&.active {
-                                //         background: $buttonbg_3;
-                                //     }
-                                // }
+                                &:hover,&:active,&.active {
+                                    background: #000;
+                                    color: #ffb21d;
+                                    border: 1px solid #ffb21d;
+                                }
+                                &:last-child {
+                                    background: #C70036;
+                                    color: #ffffff;
+
+                                    &:hover,&:active,&.active {
+                                        background: #ffb21d;
+                                        color: #000;
+                                        border: 1px solid #ffb21d;
+                                    }
+                                }
                             }
+
                         }
                     }
                     .language {
                         width: auto;
                         height: auto;
                         position: relative;
-        
+
                         select {
-                            width: 87px;
+                            width: 100px;
                             height: 28px;
-                            font-size: 15px;
+                            font-size: 18px;
                             font-weight: bold;
-                            padding-left: 5px;
-                            // background: $buttonbg_6;
-                            // color: $mainColor_1;
-                            // border: 1px solid $borderColor_3;
-                            border-radius: 2px;
-        
-                            // &:hover,&:active,&.active {
-                            //     background: $buttonbg_4;
-                            // }
+                            padding-left: 10px;
+                            border-radius: 15px;
+                            cursor: pointer;
+                            border: 1px solid #ffb21d;
+                            background: #000;
+                            color: #ffffff;
+
+                            &:hover,&:active,&.active {
+                                background: #ffb21d;
+                            }
                             option {
                                 color: #000;
+                                background: #ffb21d;
                             }
                         }
 
-                        i {
+                        .faSolid {
                             width: 8px;
                             height: 8px;
-                            border-width: 2px 2px 0 0;
+                            border-width: 5px 5px 0 5px;
                             border-style: solid;
-                            border-color: #ffffff #ffffff transparent transparent;
-                            transform: rotate(135deg);
+                            border-color: #ffffff transparent #ffffff transparent;
+                            -webkit-transform: rotate(135deg);
+                            transform: rotate(0deg);
                             position: absolute;
-                            top: 9px;
-                            right: 8px;
+                            top: 12px;
+                            right: 5px;
+
+                            &.faSortDown {
+                                margin-bottom: 5px;
+                            }
+    
+                            &.faChevronDown {
+                                margin: 2px 0 0 2px;
+                            }
                         }
                     }
                 }

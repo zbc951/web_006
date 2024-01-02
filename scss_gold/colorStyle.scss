@@ -345,9 +345,9 @@ main .gamePage_Wrap .center .gameInnerPage_Wrap .gameBox li ul li .btnBox button
 }
 
 //event 
-main .eventWrap {
-    background: $BG_color_3;
-}
+// main .eventWrap {
+//     background: $BG_color_3;
+// }
 main .eventWrap .eventTitle p {
     color: $Font_Title_1;
     font-size: 60px;
@@ -462,9 +462,9 @@ main .helpWrap .helpBody .container>div p.haveBtn {
 }
 
 //innerPage
-main.innerPage { //個別調整
-    background: $BG_color_3;
-}
+// main.innerPage { //個別調整
+//     background: $BG_color_3;
+// }
 
 //3欄背景
 main.innerPage .center>div>div:not(.listTitle),
