@@ -382,6 +382,7 @@ html body header .top .center form button {
   margin-right: 10px;
   color: #ffffff;
   font-size: 18px;
+  font-weight: bold;
 }
 html body header .top .center form button:nth-of-type(1) {
   background: -webkit-gradient(linear, left top, right top, from(#a1ea22), to(#34da14));
@@ -397,6 +398,7 @@ html body header .top .center form button:hover, html body header .top .center f
 html body header .top .center .lang {
   width: 100px;
   height: 28px;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -857,7 +859,7 @@ html body .ad.swiper .swiper-button-next {
   width: 24px;
   height: 52px;
   position: absolute;
-  top: 310px;
+  top: 223px;
 }
 html body .ad.swiper .swiper-button-prev::before, html body .ad.swiper .swiper-button-prev::after,
 html body .ad.swiper .swiper-button-next::before,
