@@ -1,12 +1,12 @@
 html {
     width: 100%;
     min-width: 1000px;
-    height: 100%;
+    height: auto;
     position: relative;
 
     body {
         width: auto;
-        height: 100%;
+        height: auto;
         position: relative;
 
         @import "./_header";
@@ -24,7 +24,7 @@ html {
         @import "./_jumpWindow";
         @import "./_register";
         
-        @include scrllBar;
+        @include scrollbar;
 
         &::-webkit-scrollbar {
             width: 0;

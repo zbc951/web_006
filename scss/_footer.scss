@@ -3,6 +3,8 @@ footer {
     min-width: 1000px;
     height: 260px;
     background: $mainColor;
+    position: absolute;
+    bottom: 0;
     z-index: 999;
 
     nav {
