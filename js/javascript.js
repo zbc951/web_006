@@ -882,6 +882,14 @@ $(function(){
         $(".filter, .jumpWindow.news")
         .addClass("display");
     })
+
+    $("footer nav ul li:first-child").click(function(){
+        $(".jumpWindow")
+        .removeClass("display");
+
+        $(".filter, .jumpWindow.news")
+        .addClass("display");
+    })
 })
 
 //註冊

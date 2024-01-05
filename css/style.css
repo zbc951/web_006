@@ -153,6 +153,11 @@ header .forget {
   background-size: cover;
 }
 
+html body .eventWrap .eventTitle {
+  background: url(../img/eventTitle_bg.png) no-repeat center;
+  background-size: cover;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -2456,7 +2461,7 @@ html body .swiper .swiper-button-next {
 html body .eventWrap {
   width: 100%;
   height: auto;
-  padding: 120px 0 260px;
+  padding: 115px 0 260px;
 }
 html body .eventWrap .eventTitle {
   width: 100%;
